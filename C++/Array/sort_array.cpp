@@ -3,7 +3,7 @@
 using namespace std;
 // This is one side sorting method means one pointer ethod
 // first method using vector
-/*void sizeofzeroandone(vector<int> &v)
+void sizeofzeroandone(vector<int> &v)
 {
     int zerocount=0;
     for(int ele:v)
@@ -45,7 +45,7 @@ int main()
         cout<<v[i]<<" ";
     }
     return 0;
-}*/
+}
 
 // secong method using array
 /*
@@ -81,7 +81,7 @@ int main()
 
 
 // This is two side sorthing array means using two pointer
-void sizeofzeroandone(vector<int> &v)
+/*void sizeofzeroandone(vector<int> &v)
 {
     int leftpointer=0;
     int rightpointer=v.size()-1;
@@ -129,4 +129,4 @@ int main()
     {
         cout<<v[i]<<" ";
     }
-}
+}*/
