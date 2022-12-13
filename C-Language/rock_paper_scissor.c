@@ -4,6 +4,7 @@
 
 void main()
 {
+    // when you enter scissor your game will be over.
     int com;
     char your;
     srand(time(NULL));
