@@ -1,28 +1,25 @@
 #include <stdio.h>
-int main()
+void main()
 {
-    int sticks=21,pick,cp;
-    for(int i=sticks;i>0;i=i-pick)
+    int stick = 21, pick, cp;
+    printf("\t\t22DCE044\n");
+    while (stick > 0)
     {
-        printf("\n\nEnter your pick(1,2,3,4) : ");
-        scanf("%d",&pick);
-    if((pick>sticks)||(pick>4))
-    {
-        printf("wrong input");
-        break;
-    }
-        if((sticks==1)&&(pick==1))
+        printf("\nEnter your pick(1,2,3,4) : ");
+        scanf("%d", &pick);
+        if ((pick > stick) || (pick > 4))
         {
-            printf("Computer won");
-            printf("\n\tID : 22DCS007\n");
-            printf("\tNAME : Bhammar vipul\n");
+            printf("wrong output");
             break;
         }
-        cp=5-pick;
-        printf("\nComputer's pick : %d",cp);
-        sticks=sticks-pick-cp;
-        printf("\nRemaining sticks : %d",sticks);
-
+        if ((pick == 1) && (stick == 1))
+        {
+            printf("Computer won.");
+            break;
+        }
+        cp = 5 - pick;
+        printf("Computer pick : %d", cp);
+        stick = stick - pick - cp;
+        printf("\nRemaining stick : %d", stick);
     }
-    return 0;
 }
