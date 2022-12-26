@@ -13,7 +13,7 @@ void display(union book b)
     printf("\nBook name is : %s",b.title);
     printf("\nAuthor name is : %s",b.author);
     printf("\nPrice of book is : %f",b.price);
-    
+    printf("\nYour choosed option is : %d",b.flag);
     if(b.flag == 1)
     {
         printf("\nYour Book Issued...");
