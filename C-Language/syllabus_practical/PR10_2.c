@@ -9,13 +9,18 @@ union book
 }b;
 void display(union book b)
 {
+    printf("Accession number is : %d",b.accession);
+    printf("\nBook name is : %s",b.title);
+    printf("\nAuthor name is : %s",b.author);
+    printf("\nPrice of book is : %f",b.price);
+    
     if(b.flag == 1)
     {
-        printf("Your Book Issued...");
+        printf("\nYour Book Issued...");
     }
-    else
+    else if(b.flag == 0)
     {
-        printf("Your Book not issued!!!");
+        printf("\nYour Book not issued!!!");
     }
       
 }
