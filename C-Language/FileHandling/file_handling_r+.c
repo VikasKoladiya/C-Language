@@ -4,7 +4,7 @@ void main()
 {
     FILE *fp;
     char str1[100],str[100];
-    fp=fopen("read.txt","r+");
+    fp=fopen("read.txt","r+");      // here you need to create this name file with .txt extension
     if(fp==NULL)
     {
         printf("error..");
