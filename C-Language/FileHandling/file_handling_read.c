@@ -6,7 +6,7 @@ void main()
     FILE *fp=NULL;
     char ch;
     char str[100];
-    fp=fopen("read.txt","r");
+    fp=fopen("read.txt","r");       // here you need to create this name file with .txt extension
     if(fp==NULL)
     {
         printf("File dont exits...");
