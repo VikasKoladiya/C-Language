@@ -2,6 +2,7 @@
 #include<conio.h>
 void main()
 {
+    // Questions of if & else
     // 3. qestion of c-if
     // int basic,hra,da,z,a;
  /* printf("\nEnter your basic salary : ");
